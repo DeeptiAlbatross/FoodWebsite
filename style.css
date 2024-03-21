@@ -219,3 +219,35 @@ p{
     background: transparent;
     border-radius: 50px;
 }
+.discount{
+    background-color: green;
+    color: white;
+}
+.dbtn{
+    height: 50px;
+    width: 65%;
+    outline: none;
+    border: none;
+    color:black;
+    background:white;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50px;
+    transition: all 0.4s;
+}
+.dbtn:hover{
+    background-color: wheat;
+}
+.store h1{
+    font-size: 3rem;
+   font-weight: bold ; 
+
+}
+.store p:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+}
+.store p:nth-child(2){
+    font-size: 18px;
+    color: gray;
+}
