@@ -163,3 +163,59 @@ p{
     font-weight: lighter;
     padding:10px 0px;
 }
+.product{
+    background-color: beige;
+}
+.products h1{
+    font-size: 3rem;
+   font-weight: bold ; 
+
+}
+.products p:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 100px;
+}
+.products p:nth-child(2){
+    font-size: 18px;
+    color: gray;
+}
+.star{
+    text-align: end;
+    color: orange;
+}
+.product .card{
+    border: none;
+    border-radius: 0;
+    cursor: pointer ;
+}
+.product .card-body{
+    border: 1px dashed gray;
+}
+.head1{
+    font-weight: 400;
+    margin: 0;
+}
+.per1{
+    color: gray;
+
+}
+.btnc{
+    height: 50px;
+    width: 45%;
+    outline: none;
+    border: none;
+    color: white;
+    background: green;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50px;
+    transition: all 0.4s;
+}
+.btnc:hover{
+    outline: none;
+    border: 1px solid green;
+    color: green;
+    background: transparent;
+    border-radius: 50px;
+}
