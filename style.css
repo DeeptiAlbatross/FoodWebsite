@@ -251,3 +251,23 @@ p{
     font-size: 18px;
     color: gray;
 }
+.store i{
+    font-size: 45px;
+}
+.store.card{
+    border-radius: 0;
+    border: none;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.store .card:hover{
+    background-color: rgb(45, 143, 45);
+    color: white;
+}
+.store .card:hover .per1{
+    color: white;
+}
+.seller h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
