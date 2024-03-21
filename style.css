@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+p{
+    font-family: 'Montserrat', sans-serif;   
+}
 .nav-item a{
     text-decoration: none;
     color: black;
@@ -18,7 +21,6 @@
     height: 70px;
     width: 120px;
 }
-
 .search{
     height: 45px;
     outline: none;
@@ -27,7 +29,6 @@
     border-radius: 20px 0px 0px 20px ;
     border-right: none;
 }
-
 .btn1{
    height: 45px;
    outline: none;
@@ -36,7 +37,6 @@
    color: white;
    border-radius: 0px 20px 20px 0px ;
    transition: all 0.4s ;
-
 }
 .btn1:hover{
     background-color: rgb(17, 102, 17);
@@ -47,9 +47,119 @@
     color: black;
     padding-top: 5px;
     transition: all 0.4s ;
-
-
 }
 .bi-bag-plus:hover{
     color: green;
+}
+.navbar-toggler{
+    font-size: 20px;
+    color: black;
+}
+.navbar-toggler:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.main{
+    background: url(./images/main.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.main h1{
+    font-size: 4rem;
+    font-family: 'Montserrat', cursive; 
+
+}
+.main p:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 100px;
+}
+.main p:nth-child(2){
+    font-size: 18px;
+    color: gray;
+}
+.mbtn1{
+    height: 50px;
+    width: 25%;
+    outline: none;
+    border: none;
+    color: white;
+    background: green;
+    border-radius: 50px;
+    transition: all 0.4s;
+}
+.mtbn1:hover{
+    background-color: rgb(12, 114, 12);
+}
+.mbtn2{
+    height: 50px;
+    width: 25%;
+    outline:none ;
+    color: black;
+    background: transparent;
+    color: green;
+    border: 1px solid green ;
+    border-radius: 50px;
+    transition: all 0.4s
+}
+.mbtn2:hover{
+    background-color: green;
+    border: none;
+    color: white;
+}
+.line{
+    height: 6px;
+    width: 30%;
+    background: green;
+    display: inline-block;
+}
+.about{
+    background: url(./images/abut.jpg)no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+}
+.about h1{
+    font-size: 3rem;
+   font-weight: bold ; 
+
+}
+.about p:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 100px;
+}
+.about p:nth-child(2){
+    font-size: 18px;
+    color: gray;
+}
+.welcome{
+    background: green;
+
+}
+.line2{
+    height: 6px;
+    width: 30%;
+    background:white;
+    display: inline-block;
+}
+.welcome h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.welcome .card{
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+}
+.welcome i{
+    font-size: 45px;
+    color: green;
+
+}
+.welcome h2{
+    font-weight: lighter;
+    padding:10px 0px;
 }
