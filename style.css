@@ -1,0 +1,55 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav-item a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 25px;
+    transition: all 0.4s ;
+}
+.nav-item a:hover{
+    color: green;
+}
+.navbar-brand .image-fluid{
+    height: 70px;
+    width: 120px;
+}
+
+.search{
+    height: 45px;
+    outline: none;
+    border: 2px solid green;
+    background-color: transparent;
+    border-radius: 20px 0px 0px 20px ;
+    border-right: none;
+}
+
+.btn1{
+   height: 45px;
+   outline: none;
+   border: none;
+   background-color: green;
+   color: white;
+   border-radius: 0px 20px 20px 0px ;
+   transition: all 0.4s ;
+
+}
+.btn1:hover{
+    background-color: rgb(17, 102, 17);
+}
+.bi-bag-plus{
+    font-size: 30px;
+    cursor: pointer ;
+    color: black;
+    padding-top: 5px;
+    transition: all 0.4s ;
+
+
+}
+.bi-bag-plus:hover{
+    color: green;
+}
