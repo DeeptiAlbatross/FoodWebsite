@@ -270,4 +270,13 @@ p{
 .seller h1{
     font-size: 3rem;
     font-weight: bold;
+    color: white;
+}
+.seller i{
+    color: orange;
+}
+.seller .card{
+    border-radius: 0;
+    border: none;
+    
 }
